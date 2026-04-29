@@ -21,7 +21,8 @@ class JobController extends Controller
             'title' => $request->title,
             'company' => $request->company,
             'location' => $request->location,
-        ]);
+            'category' => $request->category,
+            ]);
 
         return redirect('/jobs');
     }

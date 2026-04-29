@@ -8,4 +8,6 @@ class Job extends Model
 {
     protected $fillable = ['title', 'company', 'location', 'category'];
     protected $table = 'jobs';
+
+    public $timestamps = false;
 }
